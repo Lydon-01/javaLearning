@@ -1,0 +1,22 @@
+String checkGameWinner(char [][] grid){
+	if 	(grid[0][0]==grid[1][1]&& grid[1][1]==grid[2][2]) || // sideways top to bottom
+		(grid[0][2]==grid[1][1]&& grid[1][1]==grid[2][0]) || // sideways bottom to top
+		
+		(grid[0][0]==grid[1][0]==grid[2][0]) || 
+		(grid[0][1]==grid[1][1]==grid[2][1]) || 
+		(grid[0][2]==grid[1][2]==grid[2][2]) || 
+		
+		(grid[0][0]==grid[0][1]==grid[0][2]) || 
+		(grid[1][0]==grid[1][1]==grid[1][2]) || 
+		(grid[2][0]==grid[2][1]==grid[2][2]);
+		return grid[][] + "Winner";
+		
+}else {return "Oh suprise, it's a draw";}
+		
+		
+	for 	
+		(grid[a][b]==grid[a][b]==grid[a][b]) || // left to right
+		
+	
+	for(int a=0; i<2; a++);
+		if(grid[a][b]
